@@ -33,7 +33,7 @@ class Main {
         // same test for the cat
         cat cat1 = new cat(1);
 
-        // check if dog1 is mammalian and carnivorous
+        // check if cat1 is mammalian and carnivorous
         cat1.isMammals();
         cat1.isCarnivorous();
 
@@ -45,15 +45,15 @@ class Main {
         cat1.isMammals();
         cat1.isCarnivorous();
 
-        // check which noise a dog cav do with a mood different
+        // check which noise a cat cav do with a mood different
         cat1.goodMood();
         cat1.scare();
         cat1.sayHello();
 
-        // we change the mood of the dog
+        // we change the mood of the cat
         cat1.setMood(0);
 
-        // we check which mood the dog is now
+        // we check which mood the cat is now
         cat1.mood();
 
         // ------------------------------------------------------------------
