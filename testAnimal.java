@@ -75,7 +75,7 @@ class Main {
         // we change the mood of the frog
         frog1.setMood(0);
 
-        // we check which mood the dog is now
+        // we check which mood the frog is now
         frog1.mood();
 
     }
