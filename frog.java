@@ -1,6 +1,8 @@
 
 class frog extends Animal {
 
+    boolean carnivorous;
+    boolean mammalian;
     boolean gills;
     boolean laysEggs;
     int mood;
@@ -18,6 +20,8 @@ class frog extends Animal {
 
         setHasGills(true);
         setHasLaysEggs(true);
+        setCarnivorous(false);
+        setMammals(false);
 
         System.out.println("I'm a frog amphibian and belongs to oviparous");
 

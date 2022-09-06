@@ -64,7 +64,7 @@ class Main {
         frog1.hasGills();
         frog1.hasLaysEggs();
 
-        // we check if the frog is mammalian: automatically = false
+        // we check if the frog is mammalian:is not a mammalian and carnivorous = false
         frog1.isMammals();
         frog1.isCarnivorous();
 
